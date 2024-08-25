@@ -143,10 +143,10 @@ namespace TagnumElite
 
                 public AEConfig()
                 {
-                    waterConsumptionRate = 1f;
-                    water2OxygenRatio = 0.888f;
-                    water2HydrogenRatio = 0.111999989f;
-                    saltWater2WaterRatio = 0.93f;
+                    waterConsumptionRate = 0.2f;
+                    water2OxygenRatio = 0.888f * 3;
+                    water2HydrogenRatio = 0.111999989f * 3;
+                    saltWater2WaterRatio = 0.5f;
                     saltWater2SaltRatio = 0.07f;
                     brine2WaterRatio = 0.7f;
                     brine2SaltRatio = 0.3f;
@@ -155,7 +155,7 @@ namespace TagnumElite
                     hydrogenTemperature = 293.15f;
                     heatExhaust = 0f;
                     heatSelf = 4f;
-                    energyConsumption = 400f;
+                    energyConsumption = 100f;
                     workSpeedMultiplier = 1f;
                     processSaltAndBrine = false;
                     requireSaltForConstruction = false;
